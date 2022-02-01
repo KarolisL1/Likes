@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 50%;
+    min-height: 100px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: black;
+    min-height: 50px;
+}
+
+.headerh1 {
+    color: white;
+}
+
+.texth2 {
+    min-height: 50px;
+    color: black;
+    text-align: center;
+}
+
+.main {
+    min-height: 100px;
+    display: flex;
+    gap: 1.5rem;
+    flex-direction: row;
+}
+
+.left {
+    flex: 1;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+img {
+    width: 25%;
+    height: auto;
+    margin-top: 50px;
+}
+
+.right {
+    min-height: 50px;
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.first, .second, .third {
+    min-height: 50px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.firsttop, .firstbottom, .secondtop, .secondbottom, .thirdtop, .thirdbottom {
+    min-height: 25px;
+    padding: 10px;
+}
+
+.firsttop, .secondtop, .thirdtop {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.firsttopleft, .firsttopmiddle, .firsttopright {
+    min-height: 25px;
+}
+
+.secondtopleft, .secondtopmiddle, .secondtopright {
+    min-height: 25px;
+}
+
+.thirdtopleft, .thirdtopmiddle, .thirdtopright {
+    min-height: 25px;
+}
+
+.button {
+    padding: 5px;
+    background-color: yellow;
+    min-height: 25px;
+}
